@@ -78,12 +78,17 @@ recipe-finder/
    ```
 
 ### 4. Deploy Frontend to GitHub Pages
-1. Go to your repository settings
-2. Navigate to Pages section
-3. Select source: Deploy from a branch
-4. Select branch: main
-5. Select folder: / (root)
-6. Save
+
+**✅ Automated deployment is configured!**
+
+This repository includes GitHub Actions that automatically deploy to GitHub Pages when changes are pushed to the main branch.
+
+**The site is available at:** [https://jeelan80.github.io/Recipie-Finder](https://jeelan80.github.io/Recipie-Finder)
+
+**For first-time setup:**
+1. Ensure repository settings → Pages is set to "GitHub Actions" as source
+2. Push to main branch to trigger automatic deployment
+3. Or manually trigger from Actions tab → "Deploy to GitHub Pages"
 
 ### 5. Local Development
 ```bash

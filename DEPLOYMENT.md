@@ -2,12 +2,18 @@
 
 This guide will help you deploy your Recipe Finder app with GitHub Pages (frontend) and Vercel (backend).
 
+## ✨ GitHub Pages Status
+
+**✅ GitHub Pages deployment is now automated!** 
+
+The repository is configured with GitHub Actions that automatically deploy the frontend to GitHub Pages when changes are pushed to the main branch. See Step 4 below for details.
+
 ## 🎯 Quick Deployment Checklist
 
 - [ ] Get Spoonacular API key
 - [ ] Deploy backend to Vercel
 - [ ] Update frontend configuration
-- [ ] Deploy frontend to GitHub Pages
+- [x] Deploy frontend to GitHub Pages (Automated with GitHub Actions)
 - [ ] Test the live application
 
 ## 📋 Step-by-Step Instructions
@@ -60,20 +66,26 @@ This guide will help you deploy your Recipe Finder app with GitHub Pages (fronte
 
 ### Step 4: Deploy Frontend to GitHub Pages
 
-1. **Go to your repository settings** on GitHub
+**✅ GitHub Pages is now configured with automatic deployment!**
 
-2. **Navigate to Pages section** (left sidebar)
+The repository includes a GitHub Actions workflow that automatically deploys to GitHub Pages when changes are pushed to the main branch.
 
-3. **Configure GitHub Pages:**
-   - Source: Deploy from a branch
-   - Branch: main
-   - Folder: / (root)
-   - Click Save
+**What happens automatically:**
+1. When you push to the `main` branch, GitHub Actions triggers
+2. The workflow builds and deploys your site to GitHub Pages
+3. Your site becomes available at: `https://jeelan80.github.io/Recipie-Finder`
 
-4. **Wait for deployment** (usually takes 1-2 minutes)
+**Manual deployment option:**
+- Go to the "Actions" tab in your GitHub repository
+- Select "Deploy to GitHub Pages" workflow
+- Click "Run workflow" to manually trigger a deployment
 
-5. **Your site will be available at:**
-   `https://yourusername.github.io/Recipie-Finder`
+**First-time setup (one-time only):**
+If this is your first deployment, you may need to:
+1. Go to your repository settings on GitHub
+2. Navigate to Pages section (left sidebar)
+3. Verify Source is set to "GitHub Actions"
+4. If not, select "GitHub Actions" as the source
 
 ### Step 5: Test Your Application
 

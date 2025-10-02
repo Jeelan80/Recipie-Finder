@@ -10,8 +10,7 @@ app.use(cors({
     origin: [
         'http://localhost:3000',
         'http://127.0.0.1:5500',
-        'https://musical-unicorn-cd83ea.netlify.app',  // Your Netlify frontend URL
-        'https://jeelan80.github.io'  // Replace with your GitHub Pages URL if needed
+        'https://jeelan80.github.io'  // Your GitHub Pages URL
     ]
 }));
 app.use(express.json());

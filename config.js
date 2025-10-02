@@ -4,10 +4,10 @@ const config = {
     development: {
         backendURL: 'http://localhost:3000/api'
     },
-    
+
     // Production configuration
     production: {
-        backendURL: 'https://backend-mzoui11nu-jeelan80s-projects.vercel.app/api'
+        backendURL: 'https://backend-arnnmmn98-jeelan80s-projects.vercel.app/api'
     }
 };
 

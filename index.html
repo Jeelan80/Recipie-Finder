@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Recipe Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🍳 Recipe Finder</h1>
+            <p>Find delicious recipes with your available ingredients</p>
+        </header>
+
+        <main>
+            <div class="search-section">
+                <div class="ingredient-input">
+                    <input type="text" id="ingredientInput" placeholder="Enter an ingredient (e.g., chicken, tomato)">
+                    <button id="addIngredient">Add</button>
+                </div>
+                
+                <div class="ingredients-list" id="ingredientsList">
+                    <h3>Your Ingredients:</h3>
+                    <div class="ingredients-tags" id="ingredientsTags"></div>
+                </div>
+
+                <button id="findRecipes" class="find-btn" disabled>Find Recipes</button>
+            </div>
+
+            <div class="loading" id="loading" style="display: none;">
+                <div class="spinner"></div>
+                <p>Finding delicious recipes...</p>
+            </div>
+
+            <div class="recipes-section" id="recipesSection">
+                <h2>Recipe Suggestions</h2>
+                <div class="recipes-grid" id="recipesGrid"></div>
+            </div>
+        </main>
+    </div>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

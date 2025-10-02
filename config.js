@@ -7,7 +7,7 @@ const config = {
 
     // Production configuration
     production: {
-        backendURL: 'https://backend-arnnmmn98-jeelan80s-projects.vercel.app/api'
+        backendURL: 'https://backend-tan-chi-74.vercel.app/api'
     }
 };
 

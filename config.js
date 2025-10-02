@@ -7,7 +7,7 @@ const config = {
     
     // Production configuration
     production: {
-        backendURL: 'https://your-backend-url.vercel.app/api' // Update this with your deployed backend URL
+        backendURL: 'https://musical-unicorn-cd83ea.netlify.app/' // Update this with your deployed backend URL
     }
 };
 
